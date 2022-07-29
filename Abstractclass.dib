@@ -1,0 +1,30 @@
+#!csharp
+
+abstract class Animal{
+    public string name = "Hello World";
+    public string test(){
+        return "Hello from abc";
+    }
+    public abstract string test1(); 
+}
+class cat : Animal{
+    public override string test1(){
+        return "Hello from cat";
+    }
+}
+
+#!csharp
+
+cat obj = new();
+
+#!csharp
+
+obj.test()
+
+#!csharp
+
+obj.test1()
+
+#!csharp
+
+obj.name
