@@ -1,0 +1,18 @@
+#!csharp
+
+public string PolyFunction(int a, int b)
+{
+    return $"This is a sum of two integer {a + b}";
+}
+public string PolyFunction(int a, int b, int c)
+{
+    return $"This is a sum of three integer {a + b + c}";
+}
+
+#!csharp
+
+PolyFunction(1,2)
+
+#!csharp
+
+PolyFunction(4,5,6)
