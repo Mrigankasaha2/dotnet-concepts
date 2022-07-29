@@ -1,0 +1,21 @@
+#!csharp
+
+public partial class MyClass{
+    public string firstfunction(){
+        return "This is from First Function";
+    }
+}
+public partial class MyClass{
+    public string SecondFunction(){
+        return "This is from Second Function";
+    }
+}
+
+#!csharp
+
+MyClass obj = new();
+string first = obj.firstfunction();
+string second = obj.SecondFunction();
+
+Console.WriteLine(first);
+Console.WriteLine(second);
